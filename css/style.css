@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, * before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 200px;
+}
+.header__row{
+}
+
+
+.content {
+  margin-top: -160px;
+}
+.button{
+  text-decoration: none;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0 23px ;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+  top: 0;
+  position: relative;
+}
+
+
+.button__1{
+  box-shadow: 0 10px 0px #3c354a;
+  background-color: #5e5373;
+  color: #fff;
+  transition-duration: 1s;
+}
+
+.button__1:hover{
+  top: 7px;
+  box-shadow: 0 5px 0px #3c354a;
+  background-color: #18b5a4;
+}
+
+.button__1:active{
+  background-color: #5e5373;
+}
+
+
+.header__title p{
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #F5F5F5;
+  font-weight: 200 ;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.header__title p:first-child{
+  margin-bottom: 4px;
+}
+
+
+.main {
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  animation: white-s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-duration: 2s;
+}
+  .main:hover {
+  background: #5e5373;
+  animation-play-state:paused;
+  }
+
+  .main:active{
+    background-color: #18b5a4;
+   padding: 12px;
+  }
+
+@keyframes white-s{
+  0%{
+    left: 0px;
+  }
+  50%{
+
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+
+.game{
+  margin-bottom: 70px;
+}
+
+.game h1{
+  text-shadow: 4px 3px 2px #3c354a;
+  color:#5e5373 ;
+  letter-spacing: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  animation: color-blu;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition-duration: 2s;
+}
+
+@keyframes color-blu{
+  0%{
+    color: #18b5a4;
+  }
+  50%{
+
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+
+.game p{
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #F5F5F5;
+  font-weight: 200 ;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+
+
+
+
+
